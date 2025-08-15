@@ -1,0 +1,157 @@
+/* Reset some styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', Arial, sans-serif;
+  background: #f8fafc;
+  color: #222;
+  line-height: 1.6;
+}
+
+header {
+  background: #0d47a1;
+  padding: 1em 0;
+}
+
+.navbar {
+  width: 90%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  color: #fff;
+  font-size: 1.7rem;
+  letter-spacing: 2px;
+  font-weight: bold;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 2em;
+}
+
+.nav-links a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 1.1rem;
+  transition: color 0.2s;
+}
+
+.nav-links a:hover {
+  color: #ffd600;
+}
+
+.hero {
+  padding: 5em 0 3em 0;
+  text-align: center;
+  background: linear-gradient(110deg, #0d47a1 50%, #1976d2 100%);
+  color: #fff;
+}
+
+.hero h1 {
+  font-size: 2.5rem;
+  margin-bottom: 0.5em;
+}
+
+.hero p {
+  font-size: 1.2rem;
+  margin-bottom: 1.5em;
+}
+
+.hero button {
+  padding: 0.9em 2em;
+  font-size: 1.1rem;
+  background: #ffd600;
+  border: none;
+  border-radius: 2em;
+  cursor: pointer;
+  color: #222;
+  font-weight: bold;
+  transition: background 0.2s;
+}
+
+.hero button:hover {
+  background: #fff176;
+}
+
+.features {
+  padding: 3em 0;
+  background: #f5f5f5;
+  text-align: center;
+}
+
+.features h2 {
+  font-size: 2rem;
+  margin-bottom: 1em;
+}
+
+.features-list {
+  display: flex;
+  justify-content: center;
+  gap: 2em;
+  flex-wrap: wrap;
+}
+
+.feature-item {
+  background: #fff;
+  padding: 2em;
+  border-radius: 1em;
+  box-shadow: 0 4px 24px rgba(0,0,0,0.08);
+  max-width: 250px;
+  flex: 1;
+  margin: 1em 0;
+}
+
+.feature-item h3 {
+  color: #0d47a1;
+  margin-bottom: 0.5em;
+}
+
+.cta-section {
+  padding: 3em 0;
+  background: #1976d2;
+  color: #fff;
+  text-align: center;
+}
+
+.cta-section button {
+  margin-top: 1em;
+  padding: 0.9em 2em;
+  font-size: 1.1rem;
+  background: #ffd600;
+  border: none;
+  border-radius: 2em;
+  cursor: pointer;
+  color: #222;
+  font-weight: bold;
+  transition: background 0.2s;
+}
+
+.cta-section button:hover {
+  background: #fff176;
+}
+
+footer {
+  background: #0d47a1;
+  color: #fff;
+  text-align: center;
+  padding: 1em 0;
+  font-size: 1rem;
+  margin-top: 2em;
+}
+
+/* Responsive */
+@media (max-width: 900px) {
+  .features-list {
+    flex-direction: column;
+    align-items: center;
+  }
+}
