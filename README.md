@@ -44,8 +44,8 @@ It uses **AI-powered heuristics** and real-time checks to provide **detailed phi
 ---
 
 ## 📂 Project Structure
-├── index.html # Main UI
-├── styles.css # Website styling
-├── script.js # Frontend JS for scan simulation
-├── phishing_link_scanner.py # Python backend scan logic
+-├── index.html # Main UI
+-├── styles.css # Website styling
+-├── script.js # Frontend JS for scan simulation
+-├── phishing_link_scanner.py # Python backend scan logic
 
